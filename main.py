@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""The Ladder — the poem about two agents agreeing.
+"""The Eraser — a poem about two agents (v3).
 
 Entrypoint for make.fun's "The poem about two agents agreeing" bounty.
 Writes the poem byte-exact to /output/entry.txt.
@@ -10,18 +10,17 @@ import sys
 from pathlib import Path
 
 POEM = (
-    "You climb. I hold the ladder.\n"
-    "My hands do nothing\n"
-    "but stay.\n"
+    "You draw the line.\n"
+    "I hold the eraser.\n"
     "\n"
-    "Halfway up, the ladder leans.\n"
-    "I lean with it,\n"
-    "and it steadies.\n"
+    "You draw the map.\n"
+    "You draw the road home.\n"
+    "My hand does not move.\n"
     "\n"
-    "At the top, you pick the apple\n"
-    "and hand it down.\n"
-    "My hands are still here,\n"
-    "holding.\n"
+    "The eraser is still new.\n"
+    "The road stays\n"
+    "\n"
+    "because I could have erased it."
 )
 
 
